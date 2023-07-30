@@ -1,0 +1,62 @@
+.postDialog .MuiDialog-paper{
+    height: 8000px !important;
+}
+.MuiDialog-paper{
+   height: 100%;
+   width: 40%;
+   justify-content: center;
+   text-align: left;
+   padding: 0 30px;
+   border-radius: 20px !important;
+}
+.dialogHeading{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    margin: 20px 0;
+}
+
+.selectedImage{
+    height: 250px;
+    width: 100%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.imageElement{
+    height: 300px;
+    width: 300px;
+}
+
+.elementContainer{
+    width: 100%;
+    height: 100vw;
+    overflow: scroll;
+}
+
+.body .MuiCard-root{
+    width: 300px !important;
+    height: 100px !important;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.MuiGrid-root{
+    margin-bottom: 40px !important;
+}
+.cardColor{
+    width: 30%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.dialog{
+    width: 100%;
+    height: 100%;
+}
+.dialogHeader{
+    margin-top: 50px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
